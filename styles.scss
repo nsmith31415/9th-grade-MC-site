@@ -1,3 +1,7 @@
+$navcolor: rgba(255,255,255,.3);
+
+
+
 .mclogo{
 	width:90%;
 	margin:0 auto;
@@ -17,7 +21,7 @@ a{
 
 
 	&:hover div{
-	background: rgba(255,255,255,.3);
+	background: $navcolor;
 	color:rgb(82,52,14);
 
 }
@@ -54,7 +58,7 @@ a{
 	position:absolute;
 	top:0;
 	left:0;
-	background:rgba(255,255,255,.389);
+	background:$navcolor;
 
 }
 h2{
@@ -96,11 +100,12 @@ body{
 		position:fixed;
 		top:0;
 		left:0;
-		background:rgba(255,255,255,.389);
+		background:$navcolor;
 		color:black;
 		width:100%;
 		display:inline;
 		padding: 10px 30px;
+		margin:0 auto;
 	}
 	.navbar{
 		color:black;
@@ -108,7 +113,7 @@ body{
 		background:none;
 		text-decoration: none;
 		display:inline;
-		padding-right: 25px;
+		padding-right: 20px;
 		font-size:16px;
 
 			&:hover{

@@ -48,7 +48,7 @@ a:hover div {
   position: absolute;
   top: 0;
   left: 0;
-  background: rgba(255, 255, 255, 0.389);
+  background: rgba(255, 255, 255, 0.3);
 }
 
 h2 {
@@ -95,11 +95,12 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    background: rgba(255, 255, 255, 0.389);
+    background: rgba(255, 255, 255, 0.3);
     color: black;
     width: 100%;
     display: inline;
     padding: 10px 30px;
+    margin: 0 auto;
   }
 
   .navbar {
@@ -108,7 +109,7 @@ body {
     background: none;
     text-decoration: none;
     display: inline;
-    padding-right: 25px;
+    padding-right: 20px;
     font-size: 16px;
   }
   .navbar:hover {
