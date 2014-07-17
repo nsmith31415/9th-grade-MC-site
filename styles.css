@@ -132,6 +132,12 @@ body {
   .mchistory {
     margin: 30px;
   }
+  .mchistory div p {
+    font-size: 18px;
+  }
+  .mchistory div h3 {
+    font-size: 24px;
+  }
 }
 /*Large Sized Browser Window*/
 @media all and (min-width: 1100px) {
@@ -202,5 +208,11 @@ body {
 
   .mchistory {
     margin: 30px;
+  }
+  .mchistory div p {
+    font-size: 24px;
+  }
+  .mchistory div h3 {
+    font-size: 36px;
   }
 }
