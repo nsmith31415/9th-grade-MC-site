@@ -61,13 +61,13 @@ ul.mobimages li:hover .mobname, ul.nethermobs li:hover .mobname {
 
 .mobimage1 {
   height: 65px;
-  padding: 13px;
+  padding: 20px;
   background: rgba(255, 255, 255, 0.3);
   border-radius: 10px;
 }
 
 .netherimage {
-  padding: 17px;
+  padding: 30px;
 }
 
 .begintext {
@@ -172,8 +172,8 @@ body {
 
   .mobimage1 {
     height: 100px;
-    padding: 10px;
-  }
+/*    padding: 10px;
+*/  }
 }
 @media all and (max-width: 600px) {
   body {
