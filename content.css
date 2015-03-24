@@ -167,9 +167,9 @@ body {
 }
 
 @media all and (min-width: 1000px) {
-  section {
-    font-size: 24px;
-  }
+    /*section {
+      font-size: 24px;
+    }*/
 
   .mobimage1 {
     height: 100px;
